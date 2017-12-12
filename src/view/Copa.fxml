@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.CopaController">
+   <children>
+      <ImageView fx:id="ivfundo" fitHeight="400.0" fitWidth="723.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/backgold.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivcontinuar" fitHeight="239.0" fitWidth="319.0" layoutX="24.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/back1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivnovacopa" fitHeight="239.0" fitWidth="319.0" layoutX="366.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/back2.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lbcontinuar" layoutX="127.0" layoutY="112.0" text="CONTINUAR" textFill="WHITE">
+         <font>
+            <Font name="Bebas" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbnovacopa" layoutX="469.0" layoutY="112.0" text="Nova Copa" textFill="WHITE">
+         <font>
+            <Font name="Bebas" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="ivtrofeu" fitHeight="128.0" fitWidth="133.0" layoutX="293.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/trofeu.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivlogo" fitHeight="41.0" fitWidth="47.0" layoutX="14.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/icons8-Back%20Arrow-64%20(1).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

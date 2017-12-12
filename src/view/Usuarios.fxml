@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="466.0" prefWidth="726.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.UsuariosController">
+   <children>
+      <ImageView fx:id="ivfundo" fitHeight="492.0" fitWidth="730.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/back%203.jpg" />
+         </image>
+      </ImageView>
+      <TableView fx:id="tvtabela" layoutX="-2.0" layoutY="62.0" prefHeight="367.0" prefWidth="732.0">
+        <columns>
+          <TableColumn fx:id="tcnome" prefWidth="210.0" text="Nome" />
+          <TableColumn fx:id="tctime" prefWidth="293.0" text="Time" />
+            <TableColumn fx:id="tcdinheiro" prefWidth="159.0" text="Dinheiro" />
+            <TableColumn fx:id="tcid" prefWidth="69.0" text="Id" />
+        </columns>
+      </TableView>
+      <ImageView fx:id="ivlogo" fitHeight="45.0" fitWidth="43.0" layoutX="673.0" layoutY="436.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/icons8-Back%20Arrow-64%20(1).png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="tfpesquisa" layoutX="426.0" layoutY="21.0" prefHeight="25.0" prefWidth="207.0" promptText="Nome" />
+      <Button fx:id="btpesquisar" layoutX="625.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="77.0" style="-fx-background-color: #54566b;" text="Pesquisar" textFill="WHITE" />
+      <Button fx:id="btatualizar" layoutX="217.0" layoutY="17.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="77.0" style="-fx-background-color: #54566b;" text="Atualizar" textFill="WHITE" />
+      <Button fx:id="btpdf" layoutX="130.0" layoutY="17.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="77.0" style="-fx-background-color: #54566b;" text="PDF" textFill="WHITE" />
+      <Button fx:id="bteditar" layoutX="40.0" layoutY="17.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="77.0" style="-fx-background-color: #54566b;" text="Editar" textFill="WHITE" />
+      <Button fx:id="btpremiar" layoutX="40.0" layoutY="441.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="101.0" style="-fx-background-color: #54566b;" text="Premiar/multar" textFill="WHITE" />
+   </children>
+</AnchorPane>

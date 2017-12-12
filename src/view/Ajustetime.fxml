@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.media.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="608.0" prefWidth="1133.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.AjustetimeController">
+   <children>
+      <ImageView fx:id="ivfundo" fitHeight="718.0" fitWidth="1366.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/fundo1.jpg" />
+         </image>
+      </ImageView>
+      <TableView fx:id="tvtabela" layoutX="257.0" prefHeight="695.0" prefWidth="287.0">
+        <columns>
+            <TableColumn fx:id="tcposicao" prefWidth="48.0" text="Posição" />
+          <TableColumn fx:id="tcjogador" prefWidth="271.0" text="Jogadores" />
+        </columns>
+      </TableView>
+      <ImageView fx:id="ivfoto" fitHeight="319.0" fitWidth="233.0" layoutX="24.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="lbnome" layoutX="25.0" layoutY="432.0" text="Nome:" textFill="WHITE" />
+      <Label fx:id="lbposicao" layoutX="21.0" layoutY="507.0" text="Posição:" textFill="WHITE" />
+      <Label fx:id="lboveral" layoutX="25.0" layoutY="570.0" text="Overal:" textFill="WHITE" />
+      <TextField fx:id="tfnome" editable="false" layoutX="11.0" layoutY="450.0" prefHeight="25.0" prefWidth="233.0" />
+      <TextField fx:id="tfposicao" editable="false" layoutX="12.0" layoutY="524.0" prefHeight="25.0" prefWidth="233.0" />
+      <TextField fx:id="tfoveral" editable="false" layoutX="11.0" layoutY="587.0" prefHeight="25.0" prefWidth="233.0" />
+      <ImageView fx:id="ivlogo" fitHeight="50.0" fitWidth="44.0" layoutX="14.0" layoutY="660.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/icons8-Back%20Arrow-64%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivcampo" fitHeight="695.0" fitWidth="764.0" layoutX="577.0" layoutY="1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/700_FO66143908_b1a4157f2dd3d1157694ecf3885c5bd1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivjog1" fitHeight="150.0" fitWidth="200.0" layoutX="910.0" layoutY="519.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/fifarosters-download%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivjog3" fitHeight="150.0" fitWidth="200.0" layoutX="1068.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/fifarosters-download%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivjog2" fitHeight="150.0" fitWidth="200.0" layoutX="762.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/fifarosters-download%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivjog5" fitHeight="150.0" fitWidth="200.0" layoutX="1215.0" layoutY="470.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/fifarosters-download%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivjog4" fitHeight="150.0" fitWidth="200.0" layoutX="600.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/fifarosters-download%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivjog6" fitHeight="150.0" fitWidth="200.0" layoutX="909.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/fifarosters-download%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivjog8" fitHeight="150.0" fitWidth="200.0" layoutX="1117.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/fifarosters-download%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivjog7" fitHeight="150.0" fitWidth="200.0" layoutX="699.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/fifarosters-download%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivjog9" fitHeight="150.0" fitWidth="200.0" layoutX="909.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/fifarosters-download%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivjog11" fitHeight="150.0" fitWidth="200.0" layoutX="1176.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/fifarosters-download%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivjog10" fitHeight="150.0" fitWidth="200.0" layoutX="633.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/fifarosters-download%20(1).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="538.0" prefWidth="753.0" style="-fx-background-color: #26272b;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="control.CriaLiga2Controller">
+   <children>
+      <JFXButton fx:id="btfinalizar" layoutX="323.0" layoutY="481.0" prefHeight="36.0" prefWidth="105.0" style="-fx-background-color: #fe1542;" text="Finalizar" textFill="WHITE" />
+      <TableView fx:id="tbcopa" layoutX="444.0" layoutY="98.0" prefHeight="343.0" prefWidth="278.0">
+         <columns>
+            <TableColumn fx:id="tcparticipantes" prefWidth="277.0" text="Participantes" />
+         </columns>
+      </TableView>
+      <TableView fx:id="tbusuarios" layoutX="31.0" layoutY="98.0" prefHeight="343.0" prefWidth="278.0">
+         <columns>
+            <TableColumn fx:id="tcusuarios" prefWidth="277.0" text="Usuarios" />
+         </columns>
+      </TableView>
+      <JFXButton fx:id="btremover" layoutX="530.0" layoutY="463.0" prefHeight="36.0" prefWidth="105.0" style="-fx-background-color: #fe1542;" text="Remover" textFill="WHITE" />
+      <JFXButton fx:id="btadd" layoutX="117.0" layoutY="463.0" prefHeight="36.0" prefWidth="105.0" style="-fx-background-color: #fe1542;" text="Adicionar" textFill="WHITE" />
+      <Label layoutX="286.0" layoutY="6.0" text="Criar Liga" textFill="WHITE">
+         <font>
+            <Font name="Bebas" size="42.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

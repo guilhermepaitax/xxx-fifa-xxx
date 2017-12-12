@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="396.0" prefWidth="1084.0" style="-fx-background-color: #131929;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.TemaController">
+   <children>
+      <Pane prefHeight="73.0" prefWidth="1084.0" style="-fx-background-color: #171e31;">
+         <children>
+            <JFXSpinner layoutX="14.0" layoutY="21.0" />
+            <Label layoutX="62.0" layoutY="24.0" text="Escolha um" textFill="WHITE">
+               <font>
+                  <Font name="Bebas" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="189.0" layoutY="24.0" text="Tema" textFill="#fe1542">
+               <font>
+                  <Font name="Bebas" size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ImageView fx:id="ivbarca" fitHeight="143.0" fitWidth="139.0" layoutX="20.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/FUTBOL%20CLUB%20BARCELONA.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivpsg" fitHeight="143.0" fitWidth="139.0" layoutX="170.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/PSG.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivcity" fitHeight="143.0" fitWidth="139.0" layoutX="321.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/Manchester_City_Football_Club.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivunited" fitHeight="143.0" fitWidth="139.0" layoutX="473.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/MANCHESTER%20UNITED.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivreal" fitHeight="143.0" fitWidth="139.0" layoutX="645.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/Real_Madrid.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivadidas" fitHeight="143.0" fitWidth="139.0" layoutX="777.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/adidas_logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivnike" fitHeight="143.0" fitWidth="139.0" layoutX="930.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/NikeLogo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

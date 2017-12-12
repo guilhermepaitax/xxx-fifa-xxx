@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.MercadoController">
+   <children>
+      <ImageView fx:id="ivfundo" fitHeight="474.0" fitWidth="761.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/back%203.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivpack" fitHeight="187.0" fitWidth="287.0" layoutX="423.0" layoutY="119.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/pack.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivtransf" fitHeight="150.0" fitWidth="200.0" layoutX="100.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/transferencias.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="bttransf" layoutX="123.0" layoutY="323.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="105.0" style="-fx-background-color: #54566b;" text="Tranferencias" textFill="WHITE" />
+      <Button fx:id="btpack" layoutX="514.0" layoutY="323.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="105.0" style="-fx-background-color: #54566b;" text="Abrir Pack" textFill="WHITE" />
+      <Label fx:id="lbmercado" layoutX="295.0" layoutY="27.0" text="MERCADO" textFill="WHITE">
+         <font>
+            <Font name="Bebas" size="34.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="ivlogo" fitHeight="54.0" fitWidth="52.0" layoutX="14.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/icons8-Back%20Arrow-64%20(1).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

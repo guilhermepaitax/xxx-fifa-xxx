@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.PackjogadoresController">
+   <children>
+      <ImageView fx:id="ivfundo" fitHeight="419.0" fitWidth="764.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/back02.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btconcluir" layoutX="34.0" layoutY="371.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="92.0" style="-fx-background-color: #7039ab;" text="Concluir" textFill="WHITE" />
+      <Button fx:id="btvender" layoutX="160.0" layoutY="371.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="92.0" style="-fx-background-color: #7039ab;" text="Vender tudo" textFill="WHITE" />
+      <ImageView fx:id="ivlogo" fitHeight="90.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivjogador1" fitHeight="235.0" fitWidth="157.0" layoutX="21.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/messi-custom.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivjogador2" fitHeight="235.0" fitWidth="157.0" layoutX="206.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/messi-custom.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivjogador3" fitHeight="235.0" fitWidth="157.0" layoutX="391.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/messi-custom.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivjogador4" fitHeight="235.0" fitWidth="157.0" layoutX="577.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/messi-custom.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

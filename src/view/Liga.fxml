@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.LigaController">
+   <children>
+      <ImageView fx:id="ivfundo" fitHeight="400.0" fitWidth="743.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/fundo1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivlogo" fitHeight="50.0" fitWidth="64.0" layoutX="14.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/icons8-Back%20Arrow-64%20(1).png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lbcontinuar" layoutX="134.0" layoutY="78.0" text="CONTINUAR" textFill="WHITE">
+         <font>
+            <Font name="Bebas" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="ivnovaliga" fitHeight="266.0" fitWidth="474.0" layoutX="269.0" layoutY="67.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/pogba.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivcontinuar" fitHeight="260.0" fitWidth="252.0" layoutX="65.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/ronaldos.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lbnova" layoutX="454.0" layoutY="78.0" text="NOVA LIGA" textFill="WHITE">
+         <font>
+            <Font name="Bebas" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

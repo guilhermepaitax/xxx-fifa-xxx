@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchor1" prefHeight="669.0" prefWidth="1086.0" style="-fx-background-color: #131929;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.CriaUniformeController">
+   <children>
+      <ScrollPane fx:id="scroll" layoutY="-2.0" prefHeight="671.0" prefWidth="1087.0">
+        <content>
+          <AnchorPane fx:id="anchor2" minHeight="0.0" minWidth="0.0" prefHeight="669.0" prefWidth="2076.0" style="-fx-background-color: #131929;">
+               <children>
+                  <Pane fx:id="pane" prefHeight="92.0" prefWidth="2076.0" style="-fx-background-color: #171e31;">
+                     <children>
+                        <Label fx:id="lbescolha" layoutX="63.0" layoutY="33.0" text="Escolha seu" textFill="WHITE">
+                           <font>
+                              <Font name="Bebas" size="25.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lbuniforme" layoutX="205.0" layoutY="33.0" text="Uniforme" textFill="#fe1542">
+                           <font>
+                              <Font name="Bebas" size="25.0" />
+                           </font>
+                        </Label>
+                        <JFXSpinner fx:id="spinner" layoutX="14.0" layoutY="30.0" />
+                     </children></Pane>
+                  <ImageView fx:id="iv19" fitHeight="227.0" fitWidth="201.0" layoutX="906.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/kits/1.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="iv18" fitHeight="227.0" fitWidth="201.0" layoutX="1683.0" layoutY="373.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/kits/2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="iv17" fitHeight="227.0" fitWidth="201.0" layoutX="1683.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/kits/3.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="iv16" fitHeight="227.0" fitWidth="201.0" layoutX="1872.0" layoutY="372.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/kits/4.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="iv20" fitHeight="227.0" fitWidth="201.0" layoutX="1868.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/kits/5.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="iv15" fitHeight="227.0" fitWidth="201.0" layoutX="1512.0" layoutY="375.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/kits/6.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="iv14" fitHeight="227.0" fitWidth="201.0" layoutX="1509.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/kits/7.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="iv13" fitHeight="227.0" fitWidth="201.0" layoutX="1317.0" layoutY="369.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/kits/8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="iv12" fitHeight="227.0" fitWidth="201.0" layoutX="1317.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/kits/9.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="iv11" fitHeight="227.0" fitWidth="201.0" layoutX="1112.0" layoutY="375.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/kits/10.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="iv10" fitHeight="227.0" fitWidth="201.0" layoutX="905.0" layoutY="387.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/kits/11.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="iv9" fitHeight="227.0" fitWidth="201.0" layoutX="1115.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/kits/12.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="iv8" fitHeight="227.0" fitWidth="201.0" layoutX="692.0" layoutY="386.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/kits/13.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="iv7" fitHeight="227.0" fitWidth="201.0" layoutX="716.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/kits/14.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="iv6" fitHeight="227.0" fitWidth="201.0" layoutX="471.0" layoutY="392.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/kits/16.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="iv5" fitHeight="227.0" fitWidth="201.0" layoutX="492.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/kits/15.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="iv4" fitHeight="227.0" fitWidth="201.0" layoutX="265.0" layoutY="392.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/kits/17.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="iv3" fitHeight="227.0" fitWidth="201.0" layoutX="267.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/kits/18.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="iv2" fitHeight="227.0" fitWidth="201.0" layoutX="55.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/kits/19.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="iv1" fitHeight="227.0" fitWidth="201.0" layoutX="61.0" layoutY="401.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/kits/20.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

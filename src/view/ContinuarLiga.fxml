@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="611.0" prefWidth="1041.0" style="-fx-background-color: #131929;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.ContinuarLigaController">
+   <children>
+      <Pane fx:id="pane" prefHeight="74.0" prefWidth="1041.0" style="-fx-background-color: #171e31;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="lbliga" layoutX="73.0" layoutY="18.0" text="Liga" textFill="WHITE">
+               <font>
+                  <Font name="Bebas" size="38.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbnome" layoutX="147.0" layoutY="17.0" text="TW" textFill="#fe1542">
+               <font>
+                  <Font name="Bebas" size="40.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="ivvoltar" fitHeight="40.0" fitWidth="52.0" layoutX="14.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/icons8-Back%20Arrow-64%20(1).png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <JFXButton fx:id="btjogos" buttonType="RAISED" layoutX="14.0" layoutY="142.0" prefHeight="39.0" prefWidth="187.0" style="-fx-background-color: #fe1542;" text="Jogos" textFill="WHITE" />
+      <JFXButton fx:id="btartilharia" buttonType="RAISED" layoutX="14.0" layoutY="188.0" prefHeight="39.0" prefWidth="187.0" style="-fx-background-color: #fe1542;" text="Grafico" textFill="WHITE" />
+      <ImageView fx:id="ivtime" fitHeight="165.0" fitWidth="187.0" layoutX="14.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true" />
+      <TableView fx:id="tvtabela" layoutX="225.0" layoutY="88.0" prefHeight="494.0" prefWidth="788.0">
+        <columns>
+          <TableColumn fx:id="tcpontos" prefWidth="118.0" text="Pontos" />
+          <TableColumn fx:id="tctime" prefWidth="132.0" text="Time" />
+            <TableColumn fx:id="tcgols" prefWidth="89.0" text="Gols" />
+            <TableColumn fx:id="tcpartidas" prefWidth="109.0" text="Partidas" />
+            <TableColumn fx:id="tcvitorias" prefWidth="112.0" text="Vitorias" />
+            <TableColumn fx:id="tcderrotas" prefWidth="120.0" text="Derrotas" />
+            <TableColumn fx:id="tcempates" prefWidth="107.0" text="Empates" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

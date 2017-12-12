@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="441.0" prefWidth="477.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="control.EditarJogadorController">
+   <children>
+      <ImageView fx:id="ivfundo" fitHeight="477.0" fitWidth="477.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/back%2004.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btcancelar" layoutX="253.0" layoutY="407.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="95.0" style="-fx-background-color: #54566b;" text="Cancelar" textFill="WHITE" />
+      <Button fx:id="bteditar" layoutX="123.0" layoutY="407.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="95.0" style="-fx-background-color: #54566b;" text="Editar" textFill="WHITE" />
+      <Button fx:id="btadicionarcard" layoutX="318.0" layoutY="306.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="95.0" style="-fx-background-color: #54566b;" text="Adicionar Card" textFill="WHITE" />
+      <ImageView fx:id="ivcard" fitHeight="222.0" fitWidth="200.0" layoutX="277.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="tfvalor" layoutX="43.0" layoutY="309.0" opacity="0.76" prefHeight="25.0" prefWidth="187.0" promptText="Valor" />
+      <TextField fx:id="tfoverall" layoutX="43.0" layoutY="260.0" opacity="0.76" prefHeight="25.0" prefWidth="187.0" promptText="Overall" />
+      <TextField fx:id="tfposicao" layoutX="43.0" layoutY="207.0" opacity="0.76" prefHeight="25.0" prefWidth="187.0" promptText="Posição" />
+      <TextField fx:id="tfnome" layoutX="43.0" layoutY="157.0" opacity="0.76" prefHeight="25.0" prefWidth="187.0" promptText="Nome" />
+      <Label fx:id="lbtitulo" layoutX="123.0" layoutY="24.0" text="Editar Jogador" textFill="WHITE">
+         <font>
+            <Font name="Bebas" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

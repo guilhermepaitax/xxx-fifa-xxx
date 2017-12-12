@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.JogadoresController">
+   <children>
+      <ImageView fx:id="ivfundo" fitHeight="513.0" fitWidth="716.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/back%2003.jpg" />
+         </image>
+      </ImageView>
+      <TableView fx:id="tvtabela" layoutY="50.0" opacity="0.84" prefHeight="394.0" prefWidth="716.0">
+        <columns>
+          <TableColumn fx:id="tcnome" prefWidth="376.0" text="Nome" />
+          <TableColumn fx:id="tcposicao" prefWidth="168.0" text="Posição" />
+            <TableColumn fx:id="tcvalor" minWidth="0.0" prefWidth="112.0" text="Valor" />
+            <TableColumn fx:id="tcoverall" prefWidth="59.0" text="Overall" />
+        </columns>
+      </TableView>
+      <ImageView fx:id="ivlogo" fitHeight="49.0" fitWidth="54.0" layoutX="14.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/icons8-Back%20Arrow-64%20(1).png" />
+         </image>
+      </ImageView>
+      <Button fx:id="bteditar" layoutX="30.0" layoutY="7.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="77.0" style="-fx-background-color: #54566b;" text="Editar" textFill="WHITE" />
+      <Button fx:id="btpdf" layoutX="120.0" layoutY="7.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="77.0" style="-fx-background-color: #54566b;" text="PDF" textFill="WHITE" />
+      <Button fx:id="btatualizar" layoutX="207.0" layoutY="7.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="77.0" style="-fx-background-color: #54566b;" text="Atualizar" textFill="WHITE" />
+      <Button fx:id="btexcluir" layoutX="296.0" layoutY="7.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="77.0" style="-fx-background-color: #54566b;" text="Excluir" textFill="WHITE" />
+      <TextField fx:id="tfpesquisa" layoutX="416.0" layoutY="11.0" prefHeight="25.0" prefWidth="207.0" promptText="Nome" />
+      <Button fx:id="btpesquisar" layoutX="615.0" layoutY="11.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="77.0" style="-fx-background-color: #54566b;" text="Pesquisar" textFill="WHITE" />
+   </children>
+</AnchorPane>

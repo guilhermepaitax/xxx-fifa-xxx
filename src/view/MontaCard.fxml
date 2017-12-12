@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import com.jfoenix.validation.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="518.0" prefWidth="855.0" style="-fx-background-color: #131929;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.MontaCardController">
+   <children>
+      <Pane prefHeight="73.0" prefWidth="855.0" style="-fx-background-color: #171e31;">
+         <children>
+            <JFXSpinner layoutX="14.0" layoutY="21.0" />
+            <Label layoutX="62.0" layoutY="24.0" text="Crie seu" textFill="WHITE">
+               <font>
+                  <Font name="Bebas" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="154.0" layoutY="24.0" text="Card" textFill="#fe1542">
+               <font>
+                  <Font name="Bebas" size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ImageView fitHeight="354.0" fitWidth="453.0" layoutX="-11.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/png.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btfoto" layoutX="634.0" layoutY="464.0" prefHeight="39.0" prefWidth="85.0" style="-fx-background-color: #fe1542;" text="Foto" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop color="#171e31" />
+                  <Stop color="#171e31" offset="0.9885057471264367" />
+                  <Stop color="#171e31" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+      </JFXButton>
+      <Pane layoutX="328.0" layoutY="131.0" opacity="0.61" prefHeight="323.0" prefWidth="505.0" style="-fx-background-color: white; -fx-background-radius: ;">
+         <children>
+            <JFXTextField fx:id="tfnome" focusColor="#fe1542" labelFloat="true" layoutX="37.0" layoutY="55.0" prefHeight="25.0" prefWidth="456.0" promptText="Nome" unFocusColor="#171e31">
+               <font>
+                  <Font name="Bebas" size="15.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="tfpace" focusColor="#fe1542" labelFloat="true" layoutX="37.0" layoutY="112.0" prefHeight="25.0" prefWidth="201.0" promptText="Velocidade" unFocusColor="#171e31">
+               <font>
+                  <Font name="Bebas" size="15.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="tfshoot" focusColor="#fe1542" labelFloat="true" layoutX="37.0" layoutY="179.0" prefHeight="25.0" prefWidth="201.0" promptText="Chute" unFocusColor="#171e31">
+               <font>
+                  <Font name="Bebas" size="15.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="tfpassing" focusColor="#fe1542" labelFloat="true" layoutX="37.0" layoutY="246.0" prefHeight="25.0" prefWidth="201.0" promptText="Passe" unFocusColor="#171e31">
+               <font>
+                  <Font name="Bebas" size="15.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="tfdrib" focusColor="#fe1542" labelFloat="true" layoutX="290.0" layoutY="112.0" prefHeight="25.0" prefWidth="201.0" promptText="Drible" unFocusColor="#171e31">
+               <font>
+                  <Font name="Bebas" size="15.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="tfdef" focusColor="#fe1542" labelFloat="true" layoutX="290.0" layoutY="179.0" prefHeight="25.0" prefWidth="201.0" promptText="Defesa" unFocusColor="#171e31">
+               <font>
+                  <Font name="Bebas" size="15.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="tfphy" focusColor="#fe1542" labelFloat="true" layoutX="290.0" layoutY="246.0" prefHeight="25.0" prefWidth="201.0" promptText="Fisico" unFocusColor="#171e31">
+               <font>
+                  <Font name="Bebas" size="15.0" />
+               </font>
+            </JFXTextField>
+         </children>
+      </Pane>
+      <JFXButton fx:id="btcontinuar" layoutX="748.0" layoutY="464.0" prefHeight="39.0" prefWidth="85.0" style="-fx-background-color: #fe1542;" text="Continuar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop color="#171e31" />
+                  <Stop color="#171e31" offset="0.9885057471264367" />
+                  <Stop color="#171e31" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+      </JFXButton>
+      <ImageView fx:id="ivfotojogador" fitHeight="120.0" fitWidth="150.0" layoutX="128.0" layoutY="174.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/24%20-%20Allen.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="449.0" prefWidth="615.0" style="-fx-background-color: #131929;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="control.PartidaLigaController">
+   <children>
+      <TextField fx:id="tfpl1" layoutX="241.0" layoutY="155.0" prefHeight="25.0" prefWidth="33.0" />
+      <TextField fx:id="tfpl2" layoutX="340.0" layoutY="155.0" prefHeight="25.0" prefWidth="33.0" />
+      <Label layoutX="296.0" layoutY="148.0" text="X" textFill="WHITE">
+         <font>
+            <Font name="Bebas" size="38.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btadd" buttonType="RAISED" layoutX="214.0" layoutY="259.0" prefHeight="39.0" prefWidth="187.0" style="-fx-background-color: #fe1542;" text="Adicionar" textFill="WHITE" />
+      <Label layoutX="186.0" layoutY="48.0" text="Adicionar Partida" textFill="WHITE">
+         <font>
+            <Font name="Bebas" size="31.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cbtime2" layoutX="401.0" layoutY="155.0" prefWidth="150.0" promptText="Time 2" />
+      <ComboBox fx:id="cbtime1" layoutX="64.0" layoutY="155.0" prefWidth="150.0" promptText="Time 1" />
+      <JFXButton fx:id="btcancelar" buttonType="RAISED" layoutX="214.0" layoutY="320.0" prefHeight="39.0" prefWidth="187.0" style="-fx-background-color: #fe1542;" text="Cancelar" textFill="WHITE" />
+   </children>
+</AnchorPane>

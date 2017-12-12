@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="496.0" prefWidth="883.0" style="-fx-background-color: #666666;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.EscolheModoController">
+   <children>
+      <ImageView fx:id="ivfundo" fitHeight="498.0" fitWidth="883.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/80c867aaf82052d0ac9505bdf41c3afb.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lbtitulo" layoutX="343.0" layoutY="23.0" text="Escolha um modo">
+         <font>
+            <Font name="Bebas" size="27.0" />
+         </font>
+      </Label>
+      <Pane fx:id="panefundo" layoutX="226.0" layoutY="113.0" prefHeight="331.0" prefWidth="214.0" style="-fx-background-color: #f3d215;">
+         <children>
+            <Label fx:id="lbvirtual1" layoutX="36.0" layoutY="49.0" prefHeight="58.0" prefWidth="151.0" text="Virtual" textFill="#262b31">
+               <font>
+                  <Font name="Bebas" size="42.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbtexto1" layoutX="17.0" layoutY="81.0" prefHeight="202.0" prefWidth="178.0" text="Planeje partidas virtuais com jogadores do jogo FIFA, faca transferencias de jogadores e abra packs com jogadores aleatorios " textFill="#262b31" wrapText="true">
+               <font>
+                  <Font name="Bebas" size="16.0" />
+               </font>
+            </Label>
+            <Pane fx:id="panefrente" prefHeight="331.0" prefWidth="214.0" style="-fx-background-color: #262b31;">
+               <children>
+                  <Label fx:id="lbvirtual" layoutX="35.0" layoutY="62.0" text="Virtual" textFill="WHITE">
+                     <font>
+                        <Font name="Bebas" size="42.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="ivvirtual" fitHeight="121.0" fitWidth="120.0" layoutX="48.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/icons8-Game%20Controller-100.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="btvirtual" layoutY="-4.0" mnemonicParsing="false" opacity="0.0" prefHeight="337.0" prefWidth="214.0" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane fx:id="panefundo2" layoutX="445.0" layoutY="113.0" prefHeight="331.0" prefWidth="214.0" style="-fx-background-color: #f3d215;">
+         <children>
+            <Label fx:id="lbreal1" layoutX="66.0" layoutY="57.0" prefHeight="42.0" prefWidth="99.0" text="Real" textFill="#262b31">
+               <font>
+                  <Font name="Bebas" size="42.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbtexto2" layoutX="22.0" layoutY="47.0" prefHeight="230.0" prefWidth="167.0" text="Planeje partidas reais, crie seu time e adicione seus amigos a ele, e se divirta com ligas, campeonatos e muito mais" textFill="#262b31" wrapText="true">
+               <font>
+                  <Font name="Bebas" size="16.0" />
+               </font>
+            </Label>
+            <Pane fx:id="panefrente2" prefHeight="331.0" prefWidth="214.0" style="-fx-background-color: #262b31;">
+               <children>
+                  <Label fx:id="lbreal" layoutX="64.0" layoutY="68.0" text="Real" textFill="WHITE">
+                     <font>
+                        <Font name="Bebas" size="42.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="ivreal" fitHeight="121.0" fitWidth="120.0" layoutX="47.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/icons8-Soccer-100.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="btreal" layoutY="1.0" mnemonicParsing="false" opacity="0.0" prefHeight="331.0" prefWidth="214.0" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

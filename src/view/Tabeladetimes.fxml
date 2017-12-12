@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="559.0" prefWidth="824.0" style="-fx-background-color: #131929;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.TabeladetimesController">
+   <children>
+      <ImageView fx:id="ivtime" fitHeight="187.0" fitWidth="231.0" layoutX="662.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="tfsenha" layoutX="648.0" layoutY="331.0" prefHeight="25.0" prefWidth="224.0" promptText="Senha" />
+      <Pane fx:id="pane" layoutY="-1.0" prefHeight="63.0" prefWidth="1046.0" style="-fx-background-color: #171e31;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label fx:id="lbliga" layoutX="70.0" layoutY="13.0" text="Escolha um" textFill="WHITE">
+               <font>
+                  <Font name="Bebas" size="38.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbnome" layoutX="261.0" layoutY="12.0" text="Time" textFill="#fe1542">
+               <font>
+                  <Font name="Bebas" size="40.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="ivvoltar" fitHeight="40.0" fitWidth="52.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/icons8-Back%20Arrow-64%20(1).png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <JFXButton fx:id="btentrar" buttonType="RAISED" layoutX="667.0" layoutY="397.0" prefHeight="39.0" prefWidth="187.0" style="-fx-background-color: #fe1542;" text="Entrar" textFill="WHITE" AnchorPane.bottomAnchor="123.0" AnchorPane.rightAnchor="39.0" />
+      <TableView fx:id="tvtabela" layoutX="-1.0" layoutY="103.0" prefHeight="456.0" prefWidth="636.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-0.0" AnchorPane.topAnchor="103.0">
+        <columns>
+          <TableColumn fx:id="tctime" prefWidth="438.0" text="Time" />
+          <TableColumn fx:id="tcsenha" prefWidth="197.0" text="Senha" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

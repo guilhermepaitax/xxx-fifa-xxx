@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="717.0" prefWidth="1372.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.RealPrincipalController">
+   <children>
+      <ImageView fx:id="ivfundo" fitHeight="717.0" fitWidth="1376.0" pickOnBounds="true" smooth="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-4.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../imagens/wallpaper/psg.jpg" />
+         </image>
+      </ImageView>
+      <Pane fx:id="panemenu" layoutX="-2.0" layoutY="-1.0" opacity="0.41" prefHeight="717.0" prefWidth="61.0" style="-fx-background-color: Black;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <JFXButton fx:id="btperfil2" layoutY="103.0" opacity="0.0" prefHeight="40.0" prefWidth="61.0" style="-fx-background-color: #fe1542; -fx-background-radius: 0;" text="    " />
+            <JFXButton fx:id="btpartida2" layoutY="143.0" opacity="0.0" prefHeight="40.0" prefWidth="61.0" style="-fx-background-color: #fe1542; -fx-background-radius: 0;" text="    " />
+            <JFXButton fx:id="bttime2" layoutY="196.0" opacity="0.0" prefHeight="40.0" prefWidth="61.0" style="-fx-background-color: #fe1542; -fx-background-radius: 0;" text="    " />
+            <JFXButton fx:id="btsair2" layoutX="1.0" layoutY="245.0" opacity="0.0" prefHeight="40.0" prefWidth="61.0" style="-fx-background-color: #fe1542; -fx-background-radius: 0;" text="    " />
+            <ImageView fx:id="ivmenu" fitHeight="43.0" fitWidth="40.0" layoutX="11.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/icons8-Menu-64.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ivperfil" fitHeight="34.0" fitWidth="33.0" layoutX="15.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/icons8-User-64.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ivsair" fitHeight="34.0" fitWidth="33.0" layoutX="15.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/icons8-Shutdown-64.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lbmenu" disable="true" layoutX="65.0" layoutY="42.0" opacity="0.0" text="Menu" textFill="WHITE">
+               <font>
+                  <Font name="Bebas" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbperfil" disable="true" layoutX="65.0" layoutY="114.0" opacity="0.0" text="Perfil" textFill="WHITE">
+               <font>
+                  <Font name="Bebas" size="15.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="ivpartida" fitHeight="34.0" fitWidth="33.0" layoutX="15.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/icons8-Soccer%20Ball-64.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lbpartida" disable="true" layoutX="64.0" layoutY="155.0" opacity="0.0" text="Trocar Modo" textFill="WHITE">
+               <font>
+                  <Font name="Bebas" size="15.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="ivliga" fitHeight="34.0" fitWidth="33.0" layoutX="15.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/icons8-Defense-64.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lbtime" disable="true" layoutX="63.0" layoutY="207.0" opacity="0.0" text="Time" textFill="WHITE">
+               <font>
+                  <Font name="Bebas" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbsair" disable="true" layoutX="63.0" layoutY="257.0" opacity="0.0" text="Sair" textFill="WHITE">
+               <font>
+                  <Font name="Bebas" size="15.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="btperfil" layoutY="104.0" prefHeight="40.0" prefWidth="61.0" style="-fx-background-radius: 0;" text="    " />
+            <JFXButton fx:id="btpartida" layoutY="144.0" prefHeight="40.0" prefWidth="61.0" style="-fx-background-radius: 0;" text="    " />
+            <JFXButton fx:id="bttime" layoutY="195.0" prefHeight="40.0" prefWidth="61.0" style="-fx-background-radius: 0;" text="    " />
+            <JFXButton fx:id="btsair" layoutY="244.0" prefHeight="40.0" prefWidth="61.0" style="-fx-background-radius: 0;" text="    " />
+         </children>
+      </Pane>
+      <Label layoutX="545.0" layoutY="7.0" opacity="0.7" text="Time" textFill="#fcfcfc">
+         <font>
+            <Font name="Bebas" size="53.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbnometime" layoutX="665.0" layoutY="7.0" opacity="0.7" text="TW" textFill="#fe1542">
+         <font>
+            <Font name="Bebas" size="53.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tvtabela" layoutX="680.0" layoutY="95.0" opacity="0.82" prefHeight="622.0" prefWidth="692.0" style="-fx-border-color: #fe1542;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="680.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="95.0">
+        <columns>
+          <TableColumn fx:id="tctime" prefWidth="141.66668701171875" text="Time" />
+          <TableColumn fx:id="tclocal" minWidth="8.33331298828125" prefWidth="189.0" text="Local" />
+            <TableColumn fx:id="tcdata" prefWidth="149.0" text="Data e Hora" />
+            <TableColumn fx:id="tcadversario" prefWidth="211.333251953125" text="Adversario" />
+        </columns>
+      </TableView>
+      <JFXButton fx:id="btconfitmar" layoutX="499.0" layoutY="642.0" prefHeight="47.0" prefWidth="149.0" style="-fx-background-color: #2A2E37; -fx-border-color: #fe1542; -fx-border-radius: 20px; -fx-background-radius: 20px;" text="Confirmar presença" textFill="#fe1542" />
+      <JFXButton fx:id="btremove" layoutX="500.0" layoutY="583.0" prefHeight="47.0" prefWidth="149.0" style="-fx-background-color: #2A2E37; -fx-border-color: #fe1542; -fx-border-radius: 20px; -fx-background-radius: 20px;" text="Remover Partida" textFill="#fe1542" />
+      <JFXButton fx:id="btadd" layoutX="499.0" layoutY="523.0" prefHeight="47.0" prefWidth="149.0" style="-fx-background-color: #2A2E37; -fx-border-color: #fe1542; -fx-border-radius: 20px; -fx-background-radius: 20px;" text="Adicionar Partida" textFill="#fe1542" />
+   </children>
+</AnchorPane>

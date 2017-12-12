@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="604.0" prefWidth="649.0" style="-fx-background-color: #26272b;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.CriaCopaController">
+   <children>
+      <ImageView blendMode="SCREEN" fitHeight="313.0" fitWidth="862.0" layoutX="-355.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true" rotate="-48.4">
+         <image>
+            <Image url="@../imagens/rtd-img.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="227.0" layoutY="29.0" text="Criar copa" textFill="WHITE">
+         <font>
+            <Font name="Bebas" size="42.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="tfnome" focusColor="#fe1542" labelFloat="true" layoutX="184.0" layoutY="137.0" prefHeight="25.0" prefWidth="286.0" promptText="Nome da Copa" unFocusColor="WHITE" />
+      <JFXTextField fx:id="tfpremio" focusColor="#fe1542" labelFloat="true" layoutX="184.0" layoutY="217.0" prefHeight="25.0" prefWidth="286.0" promptText="Premio da Copa" unFocusColor="WHITE" />
+      <JFXTextField fx:id="tfvitoria" focusColor="#fe1542" labelFloat="true" layoutX="182.0" layoutY="290.0" prefHeight="25.0" prefWidth="286.0" promptText="Premio de Vitoria" unFocusColor="WHITE" />
+      <JFXButton fx:id="btproximo" layoutX="362.0" layoutY="533.0" prefHeight="36.0" prefWidth="88.0" ripplerFill="WHITE" style="-fx-background-color: #fe1542;" text="Proximo" textFill="WHITE" />
+      <JFXButton fx:id="btcancelar" layoutX="210.0" layoutY="533.0" prefHeight="36.0" prefWidth="88.0" ripplerFill="WHITE" style="-fx-background-color: #fe1542;" text="Cancelar" textFill="WHITE" />
+      <JFXRadioButton fx:id="rb2" layoutX="184.0" layoutY="387.0" text="2" textFill="WHITE" />
+      <JFXRadioButton fx:id="rb4" layoutX="258.0" layoutY="387.0" text="4" textFill="WHITE" />
+      <JFXRadioButton fx:id="rb8" layoutX="325.0" layoutY="387.0" text="8" textFill="WHITE" />
+      <JFXRadioButton fx:id="rb16" layoutX="389.0" layoutY="387.0" text="16" textFill="WHITE" />
+      <Label layoutX="261.0" layoutY="350.0" text="Quantidade de Usuarios" textFill="#5e5e5e" />
+   </children>
+</AnchorPane>

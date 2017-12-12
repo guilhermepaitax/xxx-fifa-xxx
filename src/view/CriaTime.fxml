@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="512.0" prefWidth="603.0" style="-fx-background-color: #131929;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.CriaTimeController">
+   <children>
+      <Pane fx:id="pane" layoutY="-1.0" prefHeight="77.0" prefWidth="603.0" style="-fx-background-color: #171e31;">
+         <children>
+            <Label fx:id="lbtitulo" layoutX="235.0" layoutY="28.0" text="Criando" textFill="WHITE">
+               <font>
+                  <Font name="Bebas" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbsubtitulo" layoutX="318.0" layoutY="26.0" text="Time" textFill="#fe1542">
+               <font>
+                  <Font name="Bebas" size="26.0" />
+               </font>
+            </Label>
+            <JFXSpinner fx:id="spinner" layoutX="41.0" layoutY="23.0" />
+         </children>
+      </Pane>
+      <ImageView fx:id="ivnome" fitHeight="27.0" fitWidth="26.0" layoutX="50.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/icons8-Soccer%20Ball-64.png" />
+         </image>
+      </ImageView>
+      <JFXTextField fx:id="tfnome" focusColor="#fe1542" labelFloat="true" layoutX="85.0" layoutY="112.0" prefHeight="25.0" prefWidth="196.0" promptText="Nome do Time" unFocusColor="WHITE" />
+      <JFXTextField fx:id="tfabreviacao" focusColor="#fe1542" labelFloat="true" layoutX="85.0" layoutY="167.0" prefHeight="25.0" prefWidth="196.0" promptText="Abreviação" unFocusColor="WHITE" />
+      <ImageView fx:id="ivabreviacao" fitHeight="27.0" fitWidth="26.0" layoutX="50.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/icons8-Soccer%20Goal-64.png" />
+         </image>
+      </ImageView>
+      <JFXTextField fx:id="tfcidade" focusColor="#fe1542" labelFloat="true" layoutX="85.0" layoutY="221.0" prefHeight="25.0" prefWidth="196.0" promptText="Estado/Cidade" unFocusColor="WHITE" />
+      <ImageView fx:id="ivestado" fitHeight="27.0" fitWidth="26.0" layoutX="50.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/icons8-Stadium-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivemblema" fitHeight="150.0" fitWidth="200.0" layoutX="396.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/exemple.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btemblema" layoutX="430.0" layoutY="308.0" prefHeight="35.0" prefWidth="76.0" style="-fx-background-color: #fe1542;" text="Emblema" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop color="#171e31" />
+                  <Stop color="#171e31" offset="0.9885057471264367" />
+                  <Stop color="#171e31" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+      </JFXButton>
+      <JFXButton fx:id="btproximo" layoutX="337.0" layoutY="451.0" prefHeight="35.0" prefWidth="76.0" style="-fx-background-color: #fe1542;" text="Proximo" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop color="#171e31" />
+                  <Stop color="#171e31" offset="0.9885057471264367" />
+                  <Stop color="#171e31" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+      </JFXButton>
+      <JFXButton fx:id="btcancelar" layoutX="205.0" layoutY="451.0" prefHeight="35.0" prefWidth="76.0" style="-fx-background-color: #fe1542;" text="Cancelar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop color="#171e31" />
+                  <Stop color="#171e31" offset="0.9885057471264367" />
+                  <Stop color="#171e31" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+      </JFXButton>
+      <JFXTextField fx:id="tffundador" focusColor="#fe1542" labelFloat="true" layoutX="85.0" layoutY="273.0" prefHeight="25.0" prefWidth="196.0" promptText="Fundador do Time" unFocusColor="WHITE" />
+      <ImageView fx:id="ivfundador" fitHeight="27.0" fitWidth="26.0" layoutX="50.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/icons8-Coach-64.png" />
+         </image>
+      </ImageView>
+      <JFXToggleButton fx:id="tbprivado" layoutX="50.0" layoutY="320.0" prefHeight="45.0" prefWidth="137.0" text="Time Privado" textFill="WHITE" toggleColor="#fe1542" toggleLineColor="#ff6e8d" />
+      <ImageView fx:id="ivsenha" fitHeight="27.0" fitWidth="26.0" layoutX="50.0" layoutY="376.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/icons8-Password-64%20(1).png" />
+         </image>
+      </ImageView>
+      <JFXPasswordField fx:id="tfsenha" focusColor="#fe1542" labelFloat="true" layoutX="85.0" layoutY="377.0" prefHeight="25.0" prefWidth="196.0" promptText="Senha do time" unFocusColor="WHITE" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="580.0" prefWidth="587.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.CadastraUsuarioController">
+   <children>
+      <ImageView fx:id="ivfundo" fitHeight="596.0" fitWidth="587.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/papers.co-vd83-scifi-web-by-emilwidlund-light-green-pattern-abstract-art-9-wallpaper.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="lbtitulo" layoutX="248.0" layoutY="23.0" text="Cadastro" textFill="WHITE">
+         <font>
+            <Font name="Bebas" size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tflogin" layoutX="37.0" layoutY="122.0" opacity="0.6" prefHeight="25.0" prefWidth="193.0" />
+      <TextField fx:id="tftime" layoutX="37.0" layoutY="302.0" opacity="0.6" prefHeight="25.0" prefWidth="193.0" />
+      <ImageView fx:id="ivemblema" fitHeight="150.0" fitWidth="200.0" layoutX="294.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="btemblema" layoutX="368.0" layoutY="302.0" mnemonicParsing="false" opacity="0.63" text="Emblema" />
+      <Button fx:id="btcadastrar" layoutX="205.0" layoutY="527.0" mnemonicParsing="false" opacity="0.63" prefHeight="32.0" prefWidth="76.0" text="Cadastrar" />
+      <Button fx:id="btcancelar" layoutX="312.0" layoutY="527.0" mnemonicParsing="false" opacity="0.63" prefHeight="32.0" prefWidth="76.0" text="Cancelar" />
+      <Label fx:id="lblogin" layoutX="37.0" layoutY="101.0" text="Login" textFill="WHITE" />
+      <Label fx:id="lbsenha" layoutX="37.0" layoutY="163.0" text="Senha" textFill="WHITE" />
+      <Label fx:id="lbconfirmsenha" layoutX="39.0" layoutY="222.0" text="Confirmar Senha" textFill="WHITE" />
+      <Label fx:id="lbnomedotime" layoutX="39.0" layoutY="285.0" text="Nome do Time" textFill="WHITE" />
+      <TextField fx:id="tfemail" layoutX="37.0" layoutY="364.0" opacity="0.6" prefHeight="25.0" prefWidth="193.0" />
+      <Label fx:id="lbnomedotime1" layoutX="39.0" layoutY="347.0" text="Email" textFill="WHITE" />
+      <RadioButton fx:id="cbadm" layoutX="35.0" layoutY="408.0" mnemonicParsing="false" text="Administrador" textFill="WHITE" />
+      <RadioButton fx:id="cbusu" layoutX="36.0" layoutY="434.0" mnemonicParsing="false" text="Usuario" textFill="WHITE" />
+      <PasswordField fx:id="tfconfirmsenha" layoutX="37.0" layoutY="239.0" opacity="0.6" prefHeight="25.0" prefWidth="193.0" />
+      <PasswordField fx:id="tfsenha" layoutX="37.0" layoutY="181.0" opacity="0.6" prefHeight="25.0" prefWidth="193.0" />
+      <Pane fx:id="pane1" prefHeight="596.0" prefWidth="587.0" style="-fx-background-color: white;" visible="false">
+         <children>
+            <Label layoutX="47.0" layoutY="166.0" text="Enviamos um codigo de seguranca do seu Email">
+               <font>
+                  <Font name="Bebas" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="186.0" layoutY="208.0" text="Digite o codigo enviado:">
+               <font>
+                  <Font name="Bebas" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="238.0" layoutY="249.0" text="****">
+               <font>
+                  <Font name="Bebas" size="62.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfcodigo" layoutX="186.0" layoutY="310.0" prefHeight="25.0" prefWidth="215.0" />
+            <JFXButton fx:id="btcodigo" layoutX="255.0" layoutY="380.0" prefHeight="32.0" prefWidth="76.0" style="-fx-background-color: black;" text="Confirmar" textFill="WHITE" />
+            <Label fx:id="lbmens" layoutX="208.0" layoutY="457.0" text="*CODIGO INCORRETO" textFill="#e43636" visible="false">
+               <font>
+                  <Font name="Bebas" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

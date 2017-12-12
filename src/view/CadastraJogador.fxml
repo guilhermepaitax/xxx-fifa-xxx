@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="467.0" prefWidth="456.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.CadastraJogadorController">
+   <children>
+      <ImageView fx:id="ivfundo" fitHeight="467.0" fitWidth="481.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/back%2004.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="lbtitulo" layoutX="113.0" layoutY="14.0" text="Cadastro de Jogadores" textFill="WHITE">
+         <font>
+            <Font name="Bebas" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfnome" layoutX="33.0" layoutY="147.0" opacity="0.76" prefHeight="25.0" prefWidth="187.0" promptText="Nome" />
+      <TextField fx:id="tfposicao" layoutX="33.0" layoutY="197.0" opacity="0.76" prefHeight="25.0" prefWidth="187.0" promptText="Posição" />
+      <TextField fx:id="tfoverall" layoutX="33.0" layoutY="250.0" opacity="0.76" prefHeight="25.0" prefWidth="187.0" promptText="Overall" />
+      <TextField fx:id="tfvalor" layoutX="33.0" layoutY="299.0" opacity="0.76" prefHeight="25.0" prefWidth="187.0" promptText="Valor" />
+      <ImageView fx:id="ivcard" fitHeight="222.0" fitWidth="200.0" layoutX="267.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="btadicionarcard" layoutX="308.0" layoutY="296.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="95.0" style="-fx-background-color: #54566b;" text="Adicionar Card" textFill="WHITE" />
+      <Button fx:id="btcadastrar" layoutX="113.0" layoutY="397.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="95.0" style="-fx-background-color: #54566b;" text="Cadastrar" textFill="WHITE" />
+      <Button fx:id="btcancelar" layoutX="243.0" layoutY="397.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="95.0" style="-fx-background-color: #54566b;" text="Cancelar" textFill="WHITE" />
+   </children>
+</AnchorPane>

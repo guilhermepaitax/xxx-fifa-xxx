@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="789.0" prefWidth="1305.0" style="-fx-background-color: #131929;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.ConntinuarCopaController">
+   <children>
+      <ImageView fx:id="ivfundo" fitHeight="344.0" fitWidth="890.0" layoutX="-306.0" layoutY="461.0" pickOnBounds="true" preserveRatio="true" rotate="-32.5">
+         <image>
+            <Image url="@../imagens/rtd-img.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="tf1" editable="false" layoutX="284.0" layoutY="141.0" AnchorPane.leftAnchor="284.0" AnchorPane.topAnchor="141.0" />
+      <TextField fx:id="tf17" editable="false" layoutX="430.0" layoutY="166.0" />
+      <TextField fx:id="tf2" editable="false" layoutX="284.0" layoutY="191.0" />
+      <TextField fx:id="tf8" editable="false" layoutX="284.0" layoutY="642.0" />
+      <TextField fx:id="tf20" editable="false" layoutX="430.0" layoutY="617.0" />
+      <TextField fx:id="tf7" editable="false" layoutX="284.0" layoutY="593.0" />
+      <TextField fx:id="tf4" editable="false" layoutX="284.0" layoutY="337.0" />
+      <TextField fx:id="tf18" editable="false" layoutX="430.0" layoutY="312.0" />
+      <TextField fx:id="tf3" editable="false" layoutX="284.0" layoutY="287.0" />
+      <TextField fx:id="tf6" editable="false" layoutX="284.0" layoutY="494.0" />
+      <TextField fx:id="tf19" editable="false" layoutX="430.0" layoutY="469.0" />
+      <TextField fx:id="tf5" editable="false" layoutX="284.0" layoutY="445.0" />
+      <TextField fx:id="tf9" editable="false" layoutX="1129.0" layoutY="141.0" />
+      <TextField fx:id="tf21" editable="false" layoutX="980.0" layoutY="166.0" />
+      <TextField fx:id="tf10" editable="false" layoutX="1129.0" layoutY="191.0" />
+      <TextField fx:id="tf12" editable="false" layoutX="1129.0" layoutY="337.0" />
+      <TextField fx:id="tf22" editable="false" layoutX="980.0" layoutY="312.0" />
+      <TextField fx:id="tf11" editable="false" layoutX="1129.0" layoutY="287.0" />
+      <TextField fx:id="tf13" editable="false" layoutX="1129.0" layoutY="445.0" />
+      <TextField fx:id="tf23" editable="false" layoutX="979.0" layoutY="469.0" />
+      <TextField fx:id="tf14" editable="false" layoutX="1129.0" layoutY="494.0" />
+      <TextField fx:id="tf15" editable="false" layoutX="1129.0" layoutY="593.0" />
+      <TextField fx:id="tf16" editable="false" layoutX="1129.0" layoutY="642.0" />
+      <TextField fx:id="tf24" editable="false" layoutX="980.0" layoutY="617.0" />
+      <TextField fx:id="tf26" editable="false" layoutX="575.0" layoutY="544.0" />
+      <TextField fx:id="tf28" editable="false" layoutX="835.0" layoutY="544.0" />
+      <TextField fx:id="tf25" editable="false" layoutX="575.0" layoutY="239.0" />
+      <TextField fx:id="tf27" editable="false" layoutX="835.0" layoutY="239.0" />
+      <TextField fx:id="tf29" editable="false" layoutX="701.0" layoutY="348.0" />
+      <TextField fx:id="tf30" editable="false" layoutX="699.0" layoutY="420.0" />
+      <TextField fx:id="pl1" editable="false" layoutX="429.0" layoutY="141.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl2" editable="false" layoutX="429.0" layoutY="191.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl9" editable="false" layoutX="1097.0" layoutY="141.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl10" editable="false" layoutX="1097.0" layoutY="191.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl5" editable="false" layoutX="429.0" layoutY="445.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl3" editable="false" layoutX="429.0" layoutY="287.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl4" editable="false" layoutX="429.0" layoutY="337.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl11" editable="false" layoutX="1097.0" layoutY="287.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl6" editable="false" layoutX="429.0" layoutY="494.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl12" editable="false" layoutX="1097.0" layoutY="337.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl7" editable="false" layoutX="429.0" layoutY="593.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl8" editable="false" layoutX="429.0" layoutY="642.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl13" editable="false" layoutX="1097.0" layoutY="445.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl14" editable="false" layoutX="1097.0" layoutY="494.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl15" editable="false" layoutX="1097.0" layoutY="593.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl16" editable="false" layoutX="1097.0" layoutY="642.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl17" editable="false" layoutX="575.0" layoutY="166.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl18" editable="false" layoutX="575.0" layoutY="312.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl19" editable="false" layoutX="575.0" layoutY="469.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl20" editable="false" layoutX="575.0" layoutY="617.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl21" editable="false" layoutX="948.0" layoutY="166.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl22" editable="false" layoutX="948.0" layoutY="312.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl24" editable="false" layoutX="948.0" layoutY="617.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl23" editable="false" layoutX="948.0" layoutY="469.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl25" editable="false" layoutX="720.0" layoutY="239.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl26" editable="false" layoutX="720.0" layoutY="544.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl27" editable="false" layoutX="803.0" layoutY="239.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl28" editable="false" layoutX="803.0" layoutY="544.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl29" editable="false" layoutX="846.0" layoutY="348.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="pl30" editable="false" layoutX="844.0" layoutY="420.0" prefHeight="25.0" prefWidth="32.0" />
+      <Label fx:id="lbquartas2" layoutX="941.0" layoutY="141.0" text="Quartas  de  final" textFill="WHITE">
+         <font>
+            <Font name="Bebas" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbsemi" layoutX="600.0" layoutY="216.0" text="Semi - final" textFill="WHITE">
+         <font>
+            <Font name="Bebas" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbsemi2" layoutX="860.0" layoutY="216.0" text="Semi - final" textFill="WHITE">
+         <font>
+            <Font name="Bebas" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbfinal" layoutX="753.0" layoutY="315.0" text="final" textFill="WHITE">
+         <font>
+            <Font name="Bebas" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="ivtrofeu" fitHeight="125.0" fitWidth="130.0" layoutX="715.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/trofeu.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lbquartas" layoutX="468.0" layoutY="141.0" text="Quartas  de  final" textFill="WHITE">
+         <font>
+            <Font name="Bebas" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lboitavas2" layoutX="1122.0" layoutY="114.0" text="Oitavas   de   Final" textFill="WHITE">
+         <font>
+            <Font name="Bebas" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lboitavas" layoutX="293.0" layoutY="114.0" text="Oitavas   de   Final" textFill="#fcfcfc">
+         <font>
+            <Font name="Bebas" size="20.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btartilharia" buttonType="RAISED" layoutX="24.0" layoutY="197.0" prefHeight="39.0" prefWidth="187.0" style="-fx-background-color: #fe1542;" text="Artilharia/Assistencia" textFill="WHITE" />
+      <JFXButton fx:id="btatualizar" buttonType="RAISED" layoutX="24.0" layoutY="245.0" prefHeight="39.0" prefWidth="187.0" style="-fx-background-color: #fe1542;" text="Atualizar" textFill="WHITE" />
+      <Pane fx:id="pane" prefHeight="83.0" prefWidth="1033.0" style="-fx-background-color: #171e31;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="lbcopa" layoutX="677.0" layoutY="9.0" text="Copa " textFill="WHITE">
+               <font>
+                  <Font name="Bebas" size="46.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbnome" layoutX="779.0" layoutY="9.0" text="TW" textFill="#fe1542">
+               <font>
+                  <Font name="Bebas" size="46.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="ivvoltar" fitHeight="68.0" fitWidth="46.0" layoutX="14.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/icons8-Back%20Arrow-64%20(1).png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

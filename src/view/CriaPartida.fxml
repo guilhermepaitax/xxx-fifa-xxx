@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="433.0" prefWidth="548.0" style="-fx-background-color: #131929;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="control.CriaPartidaController">
+   <children>
+      <Label layoutX="183.0" layoutY="14.0" text="Marcar Partida" textFill="#fe1542">
+         <font>
+            <Font name="Bebas" size="26.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="tflocal" focusColor="#fe1542" labelFloat="true" layoutX="153.0" layoutY="101.0" prefHeight="25.0" prefWidth="244.0" promptText="Local da Partida" unFocusColor="WHITE" />
+      <JFXTextField fx:id="tfhora" focusColor="#fe1542" labelFloat="true" layoutX="153.0" layoutY="168.0" prefHeight="25.0" prefWidth="244.0" promptText="Hora da Partida" unFocusColor="WHITE" />
+      <DatePicker fx:id="dpdata" layoutX="152.0" layoutY="242.0" prefHeight="25.0" prefWidth="244.0" promptText="Data da Partida" style="-fx-background-color: #131929;" />
+      <JFXButton fx:id="btcancelar" layoutX="131.0" layoutY="332.0" prefHeight="40.0" prefWidth="105.0" style="-fx-background-color: #131929; -fx-border-radius: 20px; -fx-background-radius: 20px; -fx-border-color: #fe1542;" text="Cancelar" textFill="WHITE" />
+      <JFXButton fx:id="btconfirmar" layoutX="314.0" layoutY="332.0" prefHeight="40.0" prefWidth="105.0" style="-fx-background-color: #131929; -fx-border-radius: 20px; -fx-background-radius: 20px; -fx-border-color: #fe1542;" text="Confirmar" textFill="WHITE" />
+   </children>
+</AnchorPane>

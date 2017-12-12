@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="678.0" prefWidth="1277.0" style="-fx-background-color: #26272b;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.TelaPrincipalController">
+   <children>
+      <Pane layoutX="319.0" layoutY="143.0" prefHeight="251.0" prefWidth="515.0" style="-fx-background-color: #2e3138;">
+         <children>
+            <Label layoutX="176.0" layoutY="102.0" text="Ajuste seu time">
+               <font>
+                  <Font name="Bebas" size="50.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#d0744c" />
+                        <Stop color="#ff5b5b" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <ImageView fx:id="ivmbape" fitHeight="309.0" fitWidth="201.0" layoutY="-46.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../imagens/DJhMNPzX0AAD-8C.png" />
+               </image>
+            </ImageView>
+            <Pane fx:id="btajuste" layoutY="2.0" prefHeight="251.0" prefWidth="515.0" style="-fx-background-color: #ff5b5b;">
+               <children>
+                  <ImageView fitHeight="132.0" fitWidth="143.0" layoutX="192.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/icons8-Player%20Change_100.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="850.0" layoutY="143.0" prefHeight="251.0" prefWidth="400.0" style="-fx-background-color: #2e3138; -fx-border-color: #2e3138;">
+         <children>
+            <ImageView fx:id="ivneymar" fitHeight="309.0" fitWidth="315.0" layoutX="56.0" layoutY="-58.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../imagens/DFlEBBBXkAAJD1c.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="32.0" layoutY="82.0" text="Mercado">
+               <font>
+                  <Font name="Bebas" size="87.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#d0744c" />
+                        <Stop color="#ff5b5b" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Pane fx:id="btmercado" layoutX="-1.0" layoutY="1.0" prefHeight="251.0" prefWidth="400.0" style="-fx-background-color: #ff5b5b;">
+               <children>
+                  <ImageView fitHeight="132.0" fitWidth="143.0" layoutX="134.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/icons8-Shopping%20Cart_100.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="587.0" layoutY="413.0" prefHeight="251.0" prefWidth="247.0" style="-fx-background-color: #2e3138;">
+         <children>
+            <Label layoutX="115.0" layoutY="-3.0" text="/">
+               <font>
+                  <Font name="Bebas" size="250.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#d0744c" />
+                        <Stop color="#ff5b5b" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label layoutX="-12.0" layoutY="-3.0" text="\\">
+               <font>
+                  <Font name="Bebas" size="250.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#d0744c" />
+                        <Stop color="#ff5b5b" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <ImageView fitHeight="251.0" fitWidth="253.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/fifa18-ronaldopage-ronaldo-fg-xs.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="31.0" layoutY="161.0" text="Copa">
+               <font>
+                  <Font name="Bebas" size="89.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#d0744c" />
+                        <Stop color="#ff5b5b" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Pane fx:id="btcopa" layoutX="-1.0" prefHeight="251.0" prefWidth="247.0" style="-fx-background-color: #ff5b5b;">
+               <children>
+                  <ImageView fitHeight="132.0" fitWidth="143.0" layoutX="58.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/icons8-Trophy_100.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="318.0" layoutY="413.0" prefHeight="251.0" prefWidth="253.0" style="-fx-background-color: #2e3138;">
+         <children>
+            <Label layoutX="-5.0" layoutY="8.0" text="Liga">
+               <font>
+                  <Font name="Bebas" size="148.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#d0744c" />
+                        <Stop color="#ff5b5b" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <ImageView fitHeight="251.0" fitWidth="253.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/profile.png" />
+               </image>
+            </ImageView>
+            <Pane fx:id="btliga" prefHeight="251.0" prefWidth="253.0" style="-fx-background-color: #ff5b5b;">
+               <children>
+                  <ImageView fitHeight="132.0" fitWidth="143.0" layoutX="61.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/icons8-Business%20Building_100.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="851.0" layoutY="413.0" prefHeight="251.0" prefWidth="400.0" style="-fx-background-color: #2e3138;">
+         <children>
+            <Label layoutY="98.0" text="Perfil">
+               <font>
+                  <Font name="Bebas" size="96.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#d0744c" />
+                        <Stop color="#ff5b5b" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <ImageView fx:id="ivcoutinho" fitHeight="369.0" fitWidth="247.0" layoutX="175.0" layoutY="-118.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../imagens/coutinho_by_flashdsg-dbku9kj.png" />
+               </image>
+            </ImageView>
+            <Pane fx:id="btperfil" prefHeight="251.0" prefWidth="400.0" style="-fx-background-color: #ff5b5b;">
+               <children>
+                  <ImageView fitHeight="132.0" fitWidth="143.0" layoutX="134.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagens/icons8-User_100.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane prefHeight="678.0" prefWidth="290.0" style="-fx-background-color: #2e3138;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane prefHeight="8.0" prefWidth="290.0" style="-fx-background-color: #ff5b5b;" />
+            <ImageView fx:id="ivlogo" fitHeight="187.0" fitWidth="287.0" layoutX="2.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/logo.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ivsair" fitHeight="71.0" fitWidth="70.0" layoutX="111.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/icons8-Exit-50.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="37.0" fitWidth="48.0" layoutX="74.0" layoutY="612.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/icons8-YouTube-64.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="37.0" fitWidth="48.0" layoutX="127.0" layoutY="612.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/icons8-Instagram-64.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="37.0" fitWidth="48.0" layoutX="181.0" layoutY="612.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/icons8-Facebook-64.png" />
+               </image>
+            </ImageView>
+            <Hyperlink fx:id="hyperyoutube" layoutX="74.0" layoutY="612.0" opacity="0.0" prefHeight="37.0" prefWidth="37.0" />
+            <Hyperlink fx:id="hyperinsta" layoutX="128.0" layoutY="612.0" opacity="0.0" prefHeight="37.0" prefWidth="37.0" />
+            <Hyperlink fx:id="hyperface" layoutX="181.0" layoutY="612.0" opacity="0.0" prefHeight="37.0" prefWidth="37.0" />
+         </children>
+      </Pane>
+      <ImageView fitHeight="90.0" fitWidth="562.0" layoutX="726.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/Sem%20Título-1.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="860.0" layoutY="44.0" opacity="0.17" prefHeight="0.0" prefWidth="72.0" rotate="-63.4" />
+      <ImageView fx:id="ivemblema" fitHeight="71.0" fitWidth="70.0" layoutX="796.0" layoutY="10.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../escudos%20de%20times/resto%20do%20mundo/PSG/PSG.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lbtime" layoutX="924.0" layoutY="11.0" opacity="0.65" prefHeight="19.0" prefWidth="287.0" text="Gui FC" textFill="WHITE">
+         <font>
+            <Font name="Bebas" size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="30.0" fitWidth="31.0" layoutX="917.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/coins1600.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lbdinheiro" layoutX="956.0" layoutY="52.0" opacity="0.65" prefHeight="19.0" prefWidth="246.0" text="299999.00" textFill="WHITE">
+         <font>
+            <Font name="Bebas" size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

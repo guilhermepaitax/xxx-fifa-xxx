@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="492.0" prefWidth="479.0" style="-fx-background-color: #26272b;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="control.CrialigaController">
+   <children>
+      <JFXTextField fx:id="tfvitoria" focusColor="#fe1542" labelFloat="true" layoutX="97.0" layoutY="285.0" prefHeight="25.0" prefWidth="286.0" promptText="Premio de Vitoria" unFocusColor="WHITE" />
+      <JFXTextField fx:id="tfpremio" focusColor="#fe1542" labelFloat="true" layoutX="97.0" layoutY="212.0" prefHeight="25.0" prefWidth="286.0" promptText="Premio da Liga" unFocusColor="WHITE" />
+      <JFXTextField fx:id="tfnome" focusColor="#fe1542" labelFloat="true" layoutX="97.0" layoutY="131.0" prefHeight="25.0" prefWidth="286.0" promptText="Nome da Liga" unFocusColor="WHITE" />
+      <Label layoutX="142.0" layoutY="14.0" text="Criar copa" textFill="WHITE">
+         <font>
+            <Font name="Bebas" size="42.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btcancelar" layoutX="120.0" layoutY="415.0" prefHeight="36.0" prefWidth="88.0" ripplerFill="WHITE" style="-fx-background-color: #fe1542;" text="Cancelar" textFill="WHITE" />
+      <JFXButton fx:id="btproximo" layoutX="272.0" layoutY="415.0" prefHeight="36.0" prefWidth="88.0" ripplerFill="WHITE" style="-fx-background-color: #fe1542;" text="Proximo" textFill="WHITE" />
+   </children>
+</AnchorPane>

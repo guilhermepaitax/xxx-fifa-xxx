@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="555.0" prefWidth="745.0" style="-fx-background-color: #26272b;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.CriaCopa2Controller">
+   <children>
+      <Label layoutX="275.0" layoutY="14.0" text="Criar copa" textFill="WHITE">
+         <font>
+            <Font name="Bebas" size="42.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btadd" layoutX="114.0" layoutY="471.0" prefHeight="36.0" prefWidth="105.0" style="-fx-background-color: #fe1542;" text="Adicionar" textFill="WHITE" />
+      <JFXButton fx:id="btremover" layoutX="527.0" layoutY="471.0" prefHeight="36.0" prefWidth="105.0" style="-fx-background-color: #fe1542;" text="Remover" textFill="WHITE" />
+      <TableView fx:id="tbusuarios" layoutX="28.0" layoutY="106.0" prefHeight="343.0" prefWidth="278.0">
+        <columns>
+          <TableColumn fx:id="tcusuarios" prefWidth="277.0" text="Usuarios" />
+        </columns>
+      </TableView>
+      <TableView fx:id="tbcopa" layoutX="441.0" layoutY="106.0" prefHeight="343.0" prefWidth="278.0">
+         <columns>
+            <TableColumn fx:id="tcparticipantes" prefWidth="277.0" text="Participantes" />
+         </columns>
+      </TableView>
+      <JFXButton fx:id="btfinalizar" layoutX="320.0" layoutY="489.0" prefHeight="36.0" prefWidth="105.0" style="-fx-background-color: #fe1542;" text="Finalizar" textFill="WHITE" />
+      <Label layoutX="441.0" layoutY="83.0" text="Participante Necessarios:" textFill="WHITE" />
+      <Label fx:id="lbqtd" layoutX="576.0" layoutY="83.0" prefHeight="17.0" prefWidth="25.0" text="2" textFill="WHITE" />
+   </children>
+</AnchorPane>
